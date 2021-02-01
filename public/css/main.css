@@ -1,0 +1,76 @@
+body{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a, button, table, select, option, input, .form-control, .btn{
+    font-size: 14px;
+}
+
+a{
+    color: #5867dd !important;
+    cursor:pointer;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+.delete{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar-light{
+    background-color: #555655;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light:hover .navbar-brand:hover{
+    color: white;
+}
+
+.container-fluid{
+    background-color: #f2f3f8;
+}
+
+#serverList, .datatable{
+    background-color: white;
+}
+
+.la{
+    display:inline-block;
+    font:normal normal normal 16px/1 "LineAwesome";
+    font-size:inherit;
+    text-decoration:inherit;
+    text-rendering:optimizeLegibility;
+    text-transform:none;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased
+}
+.la-trash:before{
+    content:"\f34c"
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #34bfa3;
+    border-color: #34bfa3;
+}
+
+.btn-success:active, .btn-success:focus, .btn-success:hover, .btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: #299781;
+    border-color: #268d78;
+}
+
+#scannedServers {
+    height: 500px;
+    overflow: scroll;
+}

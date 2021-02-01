@@ -1,0 +1,25 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Connectria/Luminode-Connector.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Connectria/Luminode-DB-Module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Connectria/Luminode-API-Module.git"
+        }
+
+    ],
+    "require": {
+        "wsm/connector": "dev-dev",
+        "wsm/api-module": "dev-dev",
+        "league/oauth2-client": "dev-master"
+    },
+    "require-all": true,
+    "minimum-stability": "dev"
+}
+
